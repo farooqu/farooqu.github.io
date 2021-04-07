@@ -1,0 +1,65 @@
+summary: Driven and passionate Engineer with a proven track record of delivering useful and maintainable projects, reducing technical debt, and improving existing processes.
+education:
+  - organization: University of North Florida
+    credentials:
+      - credential: B.Sc. Computer and Information Science
+        date: May 2011
+work-history:
+  - organization: University of North Florida
+    titles: 
+      - title: Computer Technician Assistant
+        from: September 2009
+        to: May 2011
+    highlights:
+      - Student assistant responsible for designing and developing applications and systems to be used for tracking inventory and statistics for help desk usage.
+  - organization: Interactive Intelligence Acquired by Genesys
+    titles:
+      - title: Senior Software Engineer
+        from: December 2013
+        to: May 2018
+      - title: Software Engineer
+        from: May 2011
+        to: December 2013
+    highlights:
+      - Senior engineer, Scrum Master, and technical lead working on a modern real time single page application serving both SaaS and self-hosted customers.
+      - Maintained open source forks and responsible for contributing to upstream projects.
+      - Designed and led initiative to automate deployment and configuration of end to end testing environment.
+    technologies:
+      - Node.js
+      - AngularJS
+      - Javascript
+      - Jenkins
+      - Perforce
+  - organization: Blackboard
+    titles:
+      - title: Senior Software Engineer
+        from: May 2018
+        to: July 2020
+    highlights:
+      - Full stack engineer, Scrum Master, and architect working on handful of RESTful backend systems and microservices, and a single page frontend application.
+      - Migrated 16 related repositories into one monorepo, allowing for the consolidation and standardization of tools and processes.
+      - Improved the CI pipeline and improved processes to get closer to CD. Worked closely with DevOps teams to break down barriers between Dev and DevOps to foster joint ownership and responsibilities.
+      - Migrated, modernized, and solidified existing microservices.
+      - Delivered numerous time sensitive projects to meet contractual obligations, while balancing quality and features.
+      - Championed and implemented agile methodologies and processes to improve consistency and predictability in velocity.
+    technologies:
+      - Node.js
+      - Jenkins
+      - AWS
+      - npm
+      - yarn
+      - lerna
+      - AngularJS
+      - React
+      - Java
+      - Typescript
+      - Express
+      - Kubernetes
+      - Terraform
+      - Git
+  - organization: Genesys
+    titles:
+      - title: Lead Software Engineer
+        from: July 2020
+
+

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Umer Farooq
+---
+<h1>Umer Farooq</h1>
+
+<h2>Summary</h2>
+<p>{{ site.data.resume.summary }}</p>
+
+<h2>Work History</h2>
+{% for experience in site.data.resume.work-history reversed %}
+<div class="experience-entry">
+    <h3 class="organization">{{ experience.organization }}</h3>
+    <ul class="titles">
+        {% for title in experience.titles %}
+            <li class="title-entry">
+                <span class="title">{{ title.title }}</span>
+                <span class="duration">{{title.from}}-{{title.to | default: "Present"}}</span>
+            </li>
+        {% endfor %}
+    </ul>
+    <ul class="highlights">
+        {% for highlight in experience.highlights %}
+        <li class="highlight">{{ highlight }}</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %}
+
+<h2>Education</h2>
+{% for education in site.data.resume.education reversed %}
+<div class="education-entry">
+    <h3 class="organization">{{ education.organization }}</h3>
+    <ul class="credentials">
+        {% for credential in education.credentials %}
+            <li class="credential-entry">
+                <span class="title">{{ credential.credential }}</span>
+                <span class="date">{{ credential.date }}</span>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endfor %}

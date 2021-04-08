@@ -4,40 +4,37 @@ title: Umer Farooq
 ---
 <h1>Umer Farooq</h1>
 
-<h2>Summary</h2>
-<p>{{ site.data.resume.summary }}</p>
+{% for section_hash in site.data.resume %}
+{% assign section = section_hash[1] %}
+<div class="section">
+    <h2>{{ section.name }}</h2>
 
-<h2>Work History</h2>
-{% for experience in site.data.resume.work-history reversed %}
-<div class="experience-entry">
-    <h3 class="organization">{{ experience.organization }}</h3>
-    <ul class="titles">
-        {% for title in experience.titles %}
-            <li class="title-entry">
-                <span class="title">{{ title.title }}</span>
-                <span class="duration">{{title.from}}-{{title.to | default: "Present"}}</span>
-            </li>
-        {% endfor %}
-    </ul>
-    <ul class="highlights">
-        {% for highlight in experience.highlights %}
-        <li class="highlight">{{ highlight }}</li>
-        {% endfor %}
-    </ul>
-</div>
-{% endfor %}
+    {% if section.description %}
+    <p>{{ section.description }}</p>
+    {% endif %} 
 
-<h2>Education</h2>
-{% for education in site.data.resume.education reversed %}
-<div class="education-entry">
-    <h3 class="organization">{{ education.organization }}</h3>
-    <ul class="credentials">
-        {% for credential in education.credentials %}
-            <li class="credential-entry">
-                <span class="title">{{ credential.credential }}</span>
-                <span class="date">{{ credential.date }}</span>
-            </li>
-        {% endfor %}
-    </ul>
+    {% for entry in section.entries reversed %}
+    <div class="entry">
+        <h3>{{ entry.name }}</h3>
+        {% if entry.details %}
+        <div class="details">
+            {% for detail in entry.details %}
+            <div class="detail">
+                <div>{{ detail.name }}</div>
+                <div>{{ detail.date }}</div>
+            </div>
+            {% endfor%}
+        </div>
+        {% endif %}
+
+        {% if entry.highlights %}
+        <ul class="highlights">
+            {% for highlight in entry.highlights %}
+            <li class="highlight">{{ highlight }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+    {% endfor %}
 </div>
 {% endfor %}

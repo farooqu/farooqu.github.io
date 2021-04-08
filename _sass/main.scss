@@ -3,7 +3,7 @@
 
 body {
     color: $dark-grey;
-    background-color: $white;
+    background-color: adjust-color($white, $lightness: -2%);
     font-family: Roboto, sans-serif;
     max-width: 800px;
     margin: auto;
@@ -17,9 +17,32 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    text-align: right;
+    margin-block: auto;
+    font-size: 14px;
+    line-height: 2em;
+    a {
+        display: block;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+a {
+    color: adjust-color($dark-blue, $lightness: 10%);
+}
+
 h1 {
     font-size: 48px;
-    line-height: 1em;
+    line-height: 1.25em;
     font-weight: 700;
 }
 

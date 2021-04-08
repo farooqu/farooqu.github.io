@@ -2,7 +2,13 @@
 layout: default
 title: Umer Farooq
 ---
-<h1>Umer Farooq</h1>
+<div class="header">
+    <h1>Umer Farooq</h1>
+    <div class="contact-info">
+        <a id="phone" href="tel:+1-317-701-0128">+1 (317) 701-0128</a>
+        <a id="email" href="mailto:umer@thefarooqs.net">umer@thefarooqs.net</a>
+    </div>
+</div>
 
 {% for section_hash in site.data.resume %}
 {% assign section = section_hash[1] %}

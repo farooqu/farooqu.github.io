@@ -52,6 +52,28 @@ work-history:
         - Kubernetes
         - Terraform
         - Git
+    - name: Genesys
+      details:
+        - name: Lead Software Engineer
+          date: July 2020-Present
+      highlights:
+        - Full stack engineer, and lead UI engineer for the team, working on handful of RESTful backend systems and microservices, as well as a few micro frontend applications.
+        - Updated numerous outdated libraries and tools to modernize the codebase.
+        - Improved the CI pipelines for front and back end projects.
+        - Championed and implemented tools and processes to improve quality, and reduce developer friction.
+      technologies:
+        - Node.js
+        - Jenkins
+        - AWS
+        - npm
+        - yarn
+        - React
+        - Knockout
+        - Vue
+        - Ember
+        - Java
+        - Typescript
+        - Git
 education:
   name: Education
   entries:

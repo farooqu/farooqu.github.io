@@ -1,6 +1,6 @@
 summary:
   name: Summary
-  description: Driven and passionate Engineer with a proven track record of delivering useful and maintainable projects, reducing technical debt, and improving existing processes.
+  description: Driven and passionate Engineering leader. Delivering useful and maintainable projects, reducing technical debt, and improving existing processes.
 work-history:
   name: Work History
   entries:
@@ -9,7 +9,7 @@ work-history:
         - name: Computer Technician Assistant
           date: September 2009 - May 2011
       highlights:
-        - Student assistant responsible for designing and developing applications and systems to be used for tracking inventory and statistics for help desk usage.
+        - Student assistant tasked with designing and developing applications for internal use. Applications tracked inventory and statistics for help desk usage.
     - name: Interactive Intelligence Acquired by Genesys
       details:
         - name: Senior Software Engineer
@@ -17,9 +17,9 @@ work-history:
         - name: Software Engineer
           date: May 2011 - December 2013
       highlights:
-        - Senior engineer, Scrum Master, and technical lead working on a modern real time single page application serving both SaaS and self-hosted customers.
-        - Maintained open source forks and responsible for contributing to upstream projects.
-        - Designed and led initiative to automate deployment and configuration of end to end testing environment.
+        - Senior engineer, Scrum Master, and technical lead. Worked on a real time single page application for SaaS and self-hosted customers.
+        - Maintained open-source forks and responsible for contributing to upstream projects.
+        - Spearheaded initiative to automate deployment and configuration of end to end testing environment.
       technologies:
         - Node.js
         - AngularJS
@@ -31,12 +31,12 @@ work-history:
         - name: Senior Software Engineer
           date: May 2018 - July 2020
       highlights:
-        - Full stack engineer, Scrum Master, and architect working on handful of RESTful backend systems and microservices, and a single page frontend application.
-        - Migrated 16 related repositories into one monorepo, allowing for the consolidation and standardization of tools and processes.
-        - Improved the CI pipeline and improved processes to get closer to CD. Worked closely with DevOps teams to break down barriers between Dev and DevOps to foster joint ownership and responsibilities.
+        - Full stack engineer, Scrum Master, and UI architect. Worked on RESTful backend systems and microservices, and a single page frontend application.
+        - Migrated 16 related repositories into one monorepo. Enabling consolidation and standardization of tools and processes.
+        - Improved the CI pipeline and improved processes to get closer to CD. Broke barriers between Dev and DevOps to foster joint ownership and responsibilities.
         - Migrated, modernized, and solidified existing microservices.
-        - Delivered numerous time sensitive projects to meet contractual obligations, while balancing quality and features.
-        - Championed and implemented agile methodologies and processes to improve consistency and predictability in velocity.
+        - Delivered time sensitive projects to meet contractual obligations, while balancing quality and features.
+        - Championed  agile methodologies and processes to improve consistency and predictability in velocity.
       technologies:
         - Node.js
         - Jenkins
@@ -60,12 +60,11 @@ work-history:
         - name: Lead Software Engineer
           date: July 2020 - May 2022
       highlights:
-        - Full stack engineer, and lead UI engineer for the team, working on handful of RESTful backend systems and microservices, as well as a few micro frontend applications.
-        - Updated numerous outdated libraries and tools to modernize the codebase.
+        - Migrated Knockout.js single page application to React and Redux.
+        - Managed work of full-time employees and interns.
+        - Updated outdated libraries and tools to modernize the codebase.
         - Improved the CI pipelines for front and back end projects.
         - Championed and implemented tools and processes to improve quality, and reduce developer friction.
-        - Lead team of three full-time engineers to re-write Knockout.js single page application in React with Redux.
-        - Responsible for the work of two interns during their summer internship, enabling each to deliver a production ready project.
       technologies:
         - Node.js
         - Jenkins

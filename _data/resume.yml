@@ -7,15 +7,15 @@ work-history:
     - name: University of North Florida
       details: 
         - name: Computer Technician Assistant
-          date: September 2009-May 2011
+          date: September 2009 - May 2011
       highlights:
         - Student assistant responsible for designing and developing applications and systems to be used for tracking inventory and statistics for help desk usage.
     - name: Interactive Intelligence Acquired by Genesys
       details:
         - name: Senior Software Engineer
-          date: December 2013-May 2018
+          date: December 2013 - May 2018
         - name: Software Engineer
-          date: May 2011-December 2013
+          date: May 2011 - December 2013
       highlights:
         - Senior engineer, Scrum Master, and technical lead working on a modern real time single page application serving both SaaS and self-hosted customers.
         - Maintained open source forks and responsible for contributing to upstream projects.
@@ -29,7 +29,7 @@ work-history:
     - name: Blackboard
       details:
         - name: Senior Software Engineer
-          date: May 2018-July 2020
+          date: May 2018 - July 2020
       highlights:
         - Full stack engineer, Scrum Master, and architect working on handful of RESTful backend systems and microservices, and a single page frontend application.
         - Migrated 16 related repositories into one monorepo, allowing for the consolidation and standardization of tools and processes.
@@ -46,6 +46,7 @@ work-history:
         - lerna
         - AngularJS
         - React
+        - Redux
         - Java
         - Typescript
         - Express
@@ -54,13 +55,17 @@ work-history:
         - Git
     - name: Genesys
       details:
+        - name: Team Lead, Lead Software Engineer
+          date: May 2022 - Present
         - name: Lead Software Engineer
-          date: July 2020-Present
+          date: July 2020 - May 2022
       highlights:
         - Full stack engineer, and lead UI engineer for the team, working on handful of RESTful backend systems and microservices, as well as a few micro frontend applications.
         - Updated numerous outdated libraries and tools to modernize the codebase.
         - Improved the CI pipelines for front and back end projects.
         - Championed and implemented tools and processes to improve quality, and reduce developer friction.
+        - Lead team of three full-time engineers to re-write Knockout.js single page application in React with Redux.
+        - Responsible for the work of two interns during their summer internship, enabling each to deliver a production ready project.
       technologies:
         - Node.js
         - Jenkins

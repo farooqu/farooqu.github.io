@@ -56,7 +56,7 @@ work-history:
     - name: Genesys
       details:
         - name: Team Lead, Lead Software Engineer
-          date: May 2022 - Present
+          date: May 2022 - September 2022
         - name: Lead Software Engineer
           date: July 2020 - May 2022
       highlights:
@@ -76,6 +76,23 @@ work-history:
         - Vue
         - Ember
         - Java
+        - Typescript
+        - Git
+    - name: Indeed
+      details:
+        - name: Senior Software Engineer
+          date: September 2022 - Present
+      highlights:
+        - Migrated services from REST API to GraphQL.
+        - Designed and lead development of new service to process inbound emails onto messaging platform.
+        - Lead monitoring and analysis of the inbound email service's bounces.
+        - Deprecated and removed old technical debt yielding numerous annual savings.
+      technologies:
+        - Node.js
+        - AWS
+        - React
+        - Java
+        - Kotlin
         - Typescript
         - Git
 education:

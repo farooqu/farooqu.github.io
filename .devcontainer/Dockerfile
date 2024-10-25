@@ -9,7 +9,7 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US
 
 # Install bundler
-RUN gem install bundler
+RUN gem install bundler -v 2.4.22
 
 # [Option] Install Node.js
 ARG NODE_VERSION="lts/*"
